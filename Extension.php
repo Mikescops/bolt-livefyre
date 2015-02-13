@@ -30,7 +30,7 @@ class Extension extends \Bolt\BaseExtension
                 fyre.conv.load({}, [{
                     el: 'livefyre-comments',
                     network: "livefyre.com",
-                    siteId: "'%site_id%'",
+                    siteId: '%site_id%',
                     articleId: '%url%',
                     signed: false,
                     collectionMeta: {
