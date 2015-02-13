@@ -19,7 +19,7 @@ class Extension extends \Bolt\BaseExtension
         if (empty($this->config['site_id'])) { $this->config['site_id'] = "No site id set"; }
     }
 
-    public function disqus($title="")
+    public function livefyre($title="")
     {
         $html = <<< EOM
             <div id="livefyre-comments"></div>
