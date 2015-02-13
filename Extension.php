@@ -46,11 +46,6 @@ class Extension extends \Bolt\BaseExtension
 
 EOM;
 
-        if ($title!="") {
-            $title = "var disqus_title = '" . htmlspecialchars($title, ENT_QUOTES, "UTF-8") . "';\n";
-        } else {
-            $title = "";
-        }
 
         $html = str_replace("%siteid%", $this->config['site_id'], $html);
         $html = str_replace("%url%", $this->app['paths']['canonicalurl'], $html);
