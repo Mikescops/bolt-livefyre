@@ -1,5 +1,5 @@
 {
-    "name": "bolt/livefyre",
+    "name": "mikescops/bolt-livefyre",
     "description": "",
     "type": "bolt-extension",
     "keywords": ["livefyre", "comments"],
