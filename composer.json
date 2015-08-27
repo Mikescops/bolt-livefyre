@@ -1,6 +1,6 @@
 {
     "name": "mikescops/bolt-livefyre",
-    "description": "",
+    "description": "This extension add livefyre comments with a simple snippet. You can see the original version at http://web.livefyre.com/.",
     "type": "bolt-extension",
     "keywords": ["livefyre", "comments"],
     "require": {
@@ -20,5 +20,8 @@
         "psr-4": {
             "Bolt\\Extension\\Bolt\\Livefyre\\": ""
         }
+    },
+    "extra": {
+        "bolt-icon": "icon-livefyre.png",
     }
 }
